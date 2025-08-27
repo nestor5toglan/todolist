@@ -4,7 +4,7 @@
     <template v-slot:header>
        
     <!-- Background image -->
-    <div
+    <!--<div
       class="p-5 text-center bg-image"
       style="
         background-image: url('https://img.freepik.com/free-photo/programming-script-text-coding-word_53876-64939.jpg?t=st=1732214224~exp=1732217824~hmac=145296fc1385c268034813fe1b270755edb7b6e8229c446f49053e7ba1e77184&w=740');
@@ -16,6 +16,25 @@
       </div>
     </div>
     <!-- Background image -->
+
+      <!--test video debut-->
+      <div
+  class="p-5 text-center bg-image"
+  style="
+    background-image: url('https://img.freepik.com/free-photo/programming-script-text-coding-word_53876-64939.jpg?t=st=1732214224~exp=1732217824~hmac=145296fc1385c268034813fe1b270755edb7b6e8229c446f49053e7ba1e77184&w=740');
+    height: 350px; width:100%; background-position: center; padding: 2px; margin: 5px; background-repeat: repeat;
+  "
+>
+  <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/ID_DE_TA_VIDEO" 
+    title="Video player" frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
+</div>
+
+      <!--test video fin -->
+      
 
     </template>
   </layout>
